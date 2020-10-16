@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+$dark: #363535;
+$dark1: #1c1919;
+$dark2: #3f4143;
+$warning: #FD9E2b;
+$danger: #cb6262;
+$success:#2c792c;
+$borderline: rgba(226, 223, 223, 0.65);
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    background-color: grey;
+
+}
+
+.bg-warning {
+    background-color: $warning;
+}
+
+.bg-danger {
+    background-color: $danger;
+}
+
+.bg-success {
+    background-color: $success;
+}
+
+.btn {
+    height: 94px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.btn-regular {
+    width: 114px;
+    background-color: $warning;
+}
+
+.btn-dark {
+    background-color: $dark2;
+    color: white;
+}
+
+.container {
+    // background-color: $warning;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .calculator {
+        background-color: $dark1;
+        border-radius: 21px;
+        width: 484px;
+        height: 710px;
+
+        .top-panel {
+            .first {
+                display: flex;
+                padding-top: 18px;
+                padding-left: 45px;
+                height: 64px;
+
+                .indicator {
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 100%;
+                    margin-right: 22px;
+
+                }
+
+            }
+
+            .second {
+                // background-color: white;
+                height: 136px;
+                display: flex;
+
+                // .placeholder {
+                    justify-content: flex-end;
+                    align-items: center;
+                    padding: 0 24px;
+                    border-top: 2px solid $borderline;
+                    border-bottom: 2px solid $borderline;
+                    color: rgb(236, 236, 236);
+                // }
+            }
+
+            
+
+        }
+        .keys {
+            display: grid;
+            row-gap: auto;
+            .row {
+                display: flex;
+                justify-content: space-betweeen;
+            }
+
+            .first-row {
+                display: flex;
+                .ac {
+                    display: flex;
+                    flex: 1;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $dark;
+                    color: white;
+                }
+            }
+            .second-row{
+                justify-content: space-between;
+                margin-top: 4px;
+            }
+            .third-row{
+                justify-content: space-between;
+                margin-top: 4px;
+            }
+            .fourth-row{
+                justify-content: space-between;
+                margin-top: 4px;
+            }
+            .fifth-row{
+                justify-content: space-between;
+                margin-top: 5px;
+                .equal{
+                    flex: 0.93;
+                }
+            }
+        }
+
+
+ 
+    }
+}

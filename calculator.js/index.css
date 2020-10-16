@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  background-color: grey;
+}
+
+.bg-warning {
+  background-color: #FD9E2b;
+}
+
+.bg-danger {
+  background-color: #cb6262;
+}
+
+.bg-success {
+  background-color: #2c792c;
+}
+
+.btn {
+  height: 94px;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.btn-regular {
+  width: 114px;
+  background-color: #FD9E2b;
+}
+
+.btn-dark {
+  background-color: #3f4143;
+  color: white;
+}
+
+.container {
+  height: 100vmin;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .calculator {
+  background-color: #1c1919;
+  border-radius: 21px;
+  width: 484px;
+  height: 710px;
+}
+
+.container .calculator .top-panel .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 18px;
+  padding-left: 45px;
+  height: 64px;
+}
+
+.container .calculator .top-panel .first .indicator {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  margin-right: 22px;
+}
+
+.container .calculator .top-panel .second {
+  height: 136px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 24px;
+  border-top: 2px solid rgba(226, 223, 223, 0.65);
+  border-bottom: 2px solid rgba(226, 223, 223, 0.65);
+  color: #ececec;
+}
+
+.container .calculator .keys {
+  display: -ms-grid;
+  display: grid;
+  row-gap: auto;
+}
+
+.container .calculator .keys .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-betweeen;
+      -ms-flex-pack: space-betweeen;
+          justify-content: space-betweeen;
+}
+
+.container .calculator .keys .first-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .calculator .keys .first-row .ac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #363535;
+  color: white;
+}
+
+.container .calculator .keys .second-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4px;
+}
+
+.container .calculator .keys .third-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4px;
+}
+
+.container .calculator .keys .fourth-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4px;
+}
+
+.container .calculator .keys .fifth-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5px;
+}
+
+.container .calculator .keys .fifth-row .equal {
+  -webkit-box-flex: 0.93;
+      -ms-flex: 0.93;
+          flex: 0.93;
+}
+/*# sourceMappingURL=index.css.map */
